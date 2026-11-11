@@ -5,3 +5,9 @@ force_control-mainline/
 force_control-mainline.zip
 sdu_controllers-main/
 sdu_controllers-main.zip
+
+# 本地产生的构建、运行和实验输出
+/build/
+/logs/
+/results/
+/data/

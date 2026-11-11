@@ -1,0 +1,5 @@
+xjc_ft_session_v1
+serial=/dev/serial/by-id/usb-FTDI_FT232R_USB_UART_BG00TFOX-if00-port0
+pose_frame=flange
+q_flange_sensor=0,0,0,1
+modbus=station1_fc04_start0_count12_be_float_115200_8n1

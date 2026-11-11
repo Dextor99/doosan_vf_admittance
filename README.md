@@ -7,6 +7,26 @@
 > **文档性质**：待实施的工程与科研路线图，**不代表各阶段已经完成或通过验收**。  
 > **依据**：用户提供的《当前系统实现说明.md》及此前讨论的开源导纳迁移和未知曲面接触理论方案。涉及当前系统的事实以该说明为准；涉及开源项目接口、兼容性、源码级工作量与理论首创性者均需进一步核实。
 
+## 当前初步落地状态（2026-11-11）
+
+本仓库已开始实施 G0–G2 的离线准备工作：
+
+- 已将旧 `doosan_ft_calibration_cpp` 源码、数据、模型、元数据和文档复制到只读快照；排除了生成的 `build/`。原目录没有 Git 元数据，因此不能创建或核验 `legacy-baseline` tag。详见 [`docs/G0_report.md`](docs/G0_report.md) 和 [`legacy-baseline/manifest.json`](legacy-baseline/manifest.json)。
+- 已从旧工程源码整理四种已有控制模式及参数，详见 [`docs/legacy_modes.md`](docs/legacy_modes.md)。尚未找到四种模式对应的历史运行日志，G0 未验收。
+- 已初步审阅本地 SDU 导纳实现并写下选型待办，详见 [`docs/G1_sdu_evaluation.md`](docs/G1_sdu_evaluation.md)。当前源码快照没有上游 commit 元数据，尚未固定依赖版本，也未构建。
+- 已创建只含 SI 数据契约和 `MockRobot` 的 CMake 骨架；当前没有 Doosan/XJC 硬件驱动、导纳闭环或真机运动入口。
+
+本地参考代码与系统环境的盘点见 [`docs/dependencies.md`](docs/dependencies.md)。初步构建需要 CMake 3.16 或更新版本；检查时当前环境没有安装 CMake，因此尚未执行构建。机器人和传感器均未连接或操作。
+
+### 离线骨架构建
+
+```bash
+cmake -S . -B build -DCMAKE_BUILD_TYPE=Release
+cmake --build build
+```
+
+目前只生成 `vf_core` 和 `vf_mock`。后续 Gate 依次完成依赖锁定、数据契约与硬件只读适配、离线回放，再决定是否进入任何实机阶段。
+
 ---
 
 ## 执行摘要

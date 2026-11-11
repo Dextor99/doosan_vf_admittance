@@ -1,0 +1,332 @@
+{
+  "manifest_version": 1,
+  "captured_at": "2026-11-11",
+  "source_path": "../doosan_ft_calibration_cpp",
+  "snapshot_path": "legacy-baseline/doosan_ft_calibration_cpp",
+  "source_git": {
+    "available": false,
+    "commit": null,
+    "note": "The sibling source directory has no .git metadata; no source tag can be created or verified."
+  },
+  "excluded_paths": [
+    "build/",
+    ".git/"
+  ],
+  "files": [
+    {
+      "path": "ADMITTANCE_DESIGN.md",
+      "size_bytes": 7581,
+      "sha256": "cd6faac3dbdf145a9284d0b6fcf4faca9261c75318232faf4fd1f32eccf72055"
+    },
+    {
+      "path": "CMakeLists.txt",
+      "size_bytes": 4546,
+      "sha256": "5071bddd2b626d5682dec8aa736c752bf924125aad8db9060f88180b8874d888"
+    },
+    {
+      "path": "Document/当前系统实现说明.md",
+      "size_bytes": 19479,
+      "sha256": "64c4fe1ecdea3cfc403ba09ec92e1e91b3a2cfeaf955378ae15ecbde62478ce4"
+    },
+    {
+      "path": "Document/未知曲面接触环境下的底层理论创新探索.md",
+      "size_bytes": 36670,
+      "sha256": "e69b370db644fa0d878505ccddb2ba5ee02eb439543f982489f426f0e6cdf766"
+    },
+    {
+      "path": "Document/视觉---力觉融合与自适应柔顺操作：系统性文献调研报告.md",
+      "size_bytes": 63875,
+      "sha256": "260bdbfe46c7680619009174deb3500809be4d019a4c2865b190839416d70772"
+    },
+    {
+      "path": "Document/轻量级视觉—力觉接触响应学习与自适应导纳控制：完整执行方案.md",
+      "size_bytes": 72924,
+      "sha256": "342ad787576d7c07b9781dba41f5aa65c81a58779467a0fb0cc95621b2f2e1bf"
+    },
+    {
+      "path": "Makefile",
+      "size_bytes": 10717,
+      "sha256": "5e8bcfb61c59bcd4aad713da6a6390bd39288fa59d37f142df2c893ca3660ac4"
+    },
+    {
+      "path": "README.md",
+      "size_bytes": 40745,
+      "sha256": "8518e81fb7ec678c79f01710cb7a8147320f76acf134f996aaaef41a72a76bab"
+    },
+    {
+      "path": "config/auto_settings.template",
+      "size_bytes": 459,
+      "sha256": "8c7597440fe5f3b81969c55214f4a6bfc9207e56a36ac807099a9b5b650f49f1"
+    },
+    {
+      "path": "config/recorded_settings.template",
+      "size_bytes": 536,
+      "sha256": "0c527f6f3c9847eff7531b50ceb505f976ccc6c5b17ea3e41ea5f6b79789ffa4"
+    },
+    {
+      "path": "data/auto_plan.txt",
+      "size_bytes": 3341,
+      "sha256": "96fff02502d8847674923b26eb1741164981c046fb50d28bd913b1f8403c6210"
+    },
+    {
+      "path": "data/auto_plan_home_v1.txt",
+      "size_bytes": 3344,
+      "sha256": "035f59b5186e8580ab8f782ef648c8ae9b1a339eade5f848bc6d05b98eb4b0c2"
+    },
+    {
+      "path": "data/auto_plan_manual_v2.txt",
+      "size_bytes": 3342,
+      "sha256": "d75be4cc34a97c8384597d9d57dd75663efaebf07eaea8c0a0b30a68ee81634a"
+    },
+    {
+      "path": "data/auto_samples_autonomous.csv",
+      "size_bytes": 44,
+      "sha256": "c54f0333bb6c3a4b7b8da579bd3f95da3c4a88c3c1effb9d17a57c83c646415a"
+    },
+    {
+      "path": "data/auto_samples_autonomous.csv.meta",
+      "size_bytes": 186,
+      "sha256": "09e3ce5104f742f28be80e3a61bf32d06cbe61332f9f008fe420d6faf1928ebe"
+    },
+    {
+      "path": "data/auto_samples_autonomous.csv.status",
+      "size_bytes": 131,
+      "sha256": "97bbb83113f7a37d440c9172f461974ac7056eaf81a6551cbad5a4b67328c4cb"
+    },
+    {
+      "path": "data/auto_samples_direct.csv",
+      "size_bytes": 44,
+      "sha256": "c54f0333bb6c3a4b7b8da579bd3f95da3c4a88c3c1effb9d17a57c83c646415a"
+    },
+    {
+      "path": "data/auto_samples_direct.csv.meta",
+      "size_bytes": 186,
+      "sha256": "09e3ce5104f742f28be80e3a61bf32d06cbe61332f9f008fe420d6faf1928ebe"
+    },
+    {
+      "path": "data/auto_samples_direct.csv.status",
+      "size_bytes": 131,
+      "sha256": "97bbb83113f7a37d440c9172f461974ac7056eaf81a6551cbad5a4b67328c4cb"
+    },
+    {
+      "path": "data/ft20_run01.csv",
+      "size_bytes": 44,
+      "sha256": "c54f0333bb6c3a4b7b8da579bd3f95da3c4a88c3c1effb9d17a57c83c646415a"
+    },
+    {
+      "path": "data/ft20_run01.csv.meta",
+      "size_bytes": 186,
+      "sha256": "09e3ce5104f742f28be80e3a61bf32d06cbe61332f9f008fe420d6faf1928ebe"
+    },
+    {
+      "path": "data/ft20_run01.csv.status",
+      "size_bytes": 101,
+      "sha256": "42331a5c66da84169d88d5245c332ce0325b0ec05e0d749f4c5bf53d2ac1b5fa"
+    },
+    {
+      "path": "data/ft20_run02.csv",
+      "size_bytes": 4672,
+      "sha256": "552b4bd1394eebb22a3ecc7fa8c35c12d162e9c669c584d612a37778c21d303a"
+    },
+    {
+      "path": "data/ft20_run02.csv.meta",
+      "size_bytes": 186,
+      "sha256": "09e3ce5104f742f28be80e3a61bf32d06cbe61332f9f008fe420d6faf1928ebe"
+    },
+    {
+      "path": "data/ft20_run02.csv.status",
+      "size_bytes": 70,
+      "sha256": "a76123ef8763ae1e2b6dddfe643d3bb2261cee225946df5f3cf852b7cbb0666d"
+    },
+    {
+      "path": "data/synthetic.csv",
+      "size_bytes": 6921,
+      "sha256": "2ceccea1b944445d3d9ef93879abaf4dcac7250be5f9f5f8c37f255dd8459a43"
+    },
+    {
+      "path": "data/taught_poses.csv",
+      "size_bytes": 5450,
+      "sha256": "42031f47aa27b2f0fc671c6cdc9cb493f3f21c5b85071c3a09411c75e97f5ab9"
+    },
+    {
+      "path": "include/admittance_x.hpp",
+      "size_bytes": 2295,
+      "sha256": "c451653315d288c0261fc73a43af15e203c206480a43b8516a2725df6b0d83b4"
+    },
+    {
+      "path": "include/admittance_xyz.hpp",
+      "size_bytes": 3330,
+      "sha256": "9233fa275f5eefca6e20efa2ce89e6c0034edfbdb4c06bbdc05452d9c70ca220"
+    },
+    {
+      "path": "include/admittance_xyz_return.hpp",
+      "size_bytes": 3879,
+      "sha256": "8063923dd43eb6c954a65e8c2c9eb29dc0a63fd7d688110ed0d40a06bc51cd6f"
+    },
+    {
+      "path": "include/ft_acquisition.hpp",
+      "size_bytes": 13037,
+      "sha256": "c3ff4c5f381e4bd6bc07b51d5371ebfd3c70cf5bf94501bbcc98fd99b380bd18"
+    },
+    {
+      "path": "include/ft_compensator.hpp",
+      "size_bytes": 3485,
+      "sha256": "e9f23c19b75a71489ff134ddb899e46d4296ebbd24679692dbee6a1d2425756c"
+    },
+    {
+      "path": "include/joint_steps.hpp",
+      "size_bytes": 1318,
+      "sha256": "fd1c60e935a8603a414e4988d4aef94d201dcf0f959cc2c5c0680a5aa811204a"
+    },
+    {
+      "path": "include/matrix_condition.hpp",
+      "size_bytes": 1809,
+      "sha256": "18e7472c0e241021827fdb0f03c40d2fe30601a4cfedd46f92e49fd501fbd7c3"
+    },
+    {
+      "path": "include/motion_completion.hpp",
+      "size_bytes": 2813,
+      "sha256": "89f2e17c0e98c6f5659a04806ef5c7a77113449baa2653e403dc2e4cab86363d"
+    },
+    {
+      "path": "include/pose_math.hpp",
+      "size_bytes": 1746,
+      "sha256": "c476230c73d3cebae52bde665f5f173963e7e5cf3eac611a4ebafb5afa4582ec"
+    },
+    {
+      "path": "include/servo_enable_policy.hpp",
+      "size_bytes": 868,
+      "sha256": "f5e33b12fe980d5aa80304003b336592ffb9b8e7a2aaf5c47164b6d30d12918c"
+    },
+    {
+      "path": "include/session_status.hpp",
+      "size_bytes": 4443,
+      "sha256": "5dc31cf1d48bcc0d64b324c0efe8d3b09994b4b4e1b39f5db2858667c7ac4d7e"
+    },
+    {
+      "path": "include/xjc_serial.hpp",
+      "size_bytes": 7390,
+      "sha256": "1e453864ca24759a64f0caa455b9c1869481d1c88d4a5efd84f2b7eec0df6c02"
+    },
+    {
+      "path": "output/calibration.txt",
+      "size_bytes": 292,
+      "sha256": "ff1fc5a72e02e97d8d3a3fd08bc7fa64e097af5621cc2a3d454619728499431e"
+    },
+    {
+      "path": "output/compensated.csv",
+      "size_bytes": 8681,
+      "sha256": "50ded17d5176af552c74c5fca91eec8ca7b488978283e666571676f4c40665f4"
+    },
+    {
+      "path": "output/demo_test_log.txt",
+      "size_bytes": 1576,
+      "sha256": "2bc76c240ab6de9b35587f8f7b3a7b5fadc2b03bb8bb4b68c5cb6259c6b686c1"
+    },
+    {
+      "path": "output/ft20_run02_model.txt",
+      "size_bytes": 295,
+      "sha256": "4d7b242b04824ffc01f3574d03217f9d86d43996e42719ac0536ccf0b0ba03e1"
+    },
+    {
+      "path": "output/ft20_run02_model.txt.compensated.csv",
+      "size_bytes": 5170,
+      "sha256": "5a81b89dd211e876d1f9c6b4fb0bbb758b17f784ad201a6edbe9f60645fbb7ce"
+    },
+    {
+      "path": "output/ft20_run02_model.txt.meta",
+      "size_bytes": 186,
+      "sha256": "09e3ce5104f742f28be80e3a61bf32d06cbe61332f9f008fe420d6faf1928ebe"
+    },
+    {
+      "path": "src/compensate_example.cpp",
+      "size_bytes": 1030,
+      "sha256": "234ce084ee5470093d73b78f45a3c243f74e7a9e5cb235c1114418747accedb9"
+    },
+    {
+      "path": "src/ft_acquire.cpp",
+      "size_bytes": 4379,
+      "sha256": "c804ed46344beac35ffc086819689f0c60396bf8074f9d4adf101deaa630a054"
+    },
+    {
+      "path": "src/ft_admittance_x.cpp",
+      "size_bytes": 21090,
+      "sha256": "21e9818791b57e9de2f706e8c650b5fa9a664a0ac098b36da7a1194730f7aac3"
+    },
+    {
+      "path": "src/ft_admittance_xyz.cpp",
+      "size_bytes": 23082,
+      "sha256": "6d0c6fef4637bad4ae505d0fb81003af564d918215dc787abeaba36f582831d6"
+    },
+    {
+      "path": "src/ft_admittance_xyz_return.cpp",
+      "size_bytes": 23140,
+      "sha256": "14307f2ec2d547c375d73e749d786b918f1f525041773b503b482598a36bb7ae"
+    },
+    {
+      "path": "src/ft_admittance_y_trajectory.cpp",
+      "size_bytes": 25318,
+      "sha256": "c6b21377e77cce9f6227046e2ce0526fe11345c3751492ca8e3fcaf4844ab670"
+    },
+    {
+      "path": "src/ft_auto.cpp",
+      "size_bytes": 65707,
+      "sha256": "58904b1bb06a11ccab58ad4087ce159fcf07472ee38c9cdc82f2ff400df30c05"
+    },
+    {
+      "path": "src/ft_calibration.cpp",
+      "size_bytes": 21456,
+      "sha256": "e68a2a083b29390a8f17ac50925bb8f88774e4a1e4d704c7f143fc6326a5ae70"
+    },
+    {
+      "path": "src/ft_movej_test.cpp",
+      "size_bytes": 20803,
+      "sha256": "62b0abe2f7d669af64a668773ef7ae99d3b7796f74ec84cbf1025af4ee1fdec4"
+    },
+    {
+      "path": "src/ft_record_poses.cpp",
+      "size_bytes": 11054,
+      "sha256": "3a19a3e6e1baaea0a0df5aa17d738d1a15d11cf120af32720ee398599a8f57c3"
+    },
+    {
+      "path": "tests/acquisition_offline_test.cpp",
+      "size_bytes": 5412,
+      "sha256": "35342f1cfce81d88ae7d922dd77ede54cfda2b27b3ceb37ad2ca5f894105ee61"
+    },
+    {
+      "path": "tests/admittance_x_test.cpp",
+      "size_bytes": 1251,
+      "sha256": "1e822d9c06e391132865dd0f0ababa7794a058cb281861c7a300f7f7c4aa4dac"
+    },
+    {
+      "path": "tests/calibration_session_cli_test.sh",
+      "size_bytes": 1337,
+      "sha256": "c44649282b9848a7c58cd290bf338df92dbeb06d39866131e7963a54bfab9d2f"
+    },
+    {
+      "path": "tests/joint_steps_test.cpp",
+      "size_bytes": 748,
+      "sha256": "2289a44132f9b5252b0fd630900f82fb87ae60eb4b3fc2c142963e0041d5b70b"
+    },
+    {
+      "path": "tests/matrix_condition_test.cpp",
+      "size_bytes": 1055,
+      "sha256": "940985682f5015665ff447c5b5bf44d932b26f37e323f9eafe20744364ea19d7"
+    },
+    {
+      "path": "tests/motion_completion_test.cpp",
+      "size_bytes": 1922,
+      "sha256": "4f2d2824e633ad8f1442b8b6048e5a7ac935f011b8ffe0d71b461f7b989802dc"
+    },
+    {
+      "path": "tests/servo_enable_policy_test.cpp",
+      "size_bytes": 1232,
+      "sha256": "2ee9f706b09f1e05ca3099730064156ac0d0b482cc2f3d1f444d8e516c90e75d"
+    },
+    {
+      "path": "tests/session_status_test.cpp",
+      "size_bytes": 2154,
+      "sha256": "cdab262e9ed1e71aec4f37a5361e87ada9c6fb3f52839e9149327ba68a7204ee"
+    }
+  ]
+}

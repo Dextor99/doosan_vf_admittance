@@ -1,0 +1,38 @@
+Estimated payload mass = 1.798990 kg
+Wrench gravity sign = +1 (check sign convention!)
+COM in sensor frame [m] = 0.030051, -0.014996, 0.080006
+Bias [Fx Fy Fz Mx My Mz] = 0.462323 -0.250975 0.303253 0.018231 -0.012486 0.024813 [N, Nm]
+LS rank=10/10, QR diag ratio=0.049459
+Residuals for split=train, n=28
+ channel    RMSE       max|error|
+   Fx(N)     0.019509    0.037012
+   Fy(N)     0.017175    0.039918
+   Fz(N)     0.019308    0.042498
+  Mx(Nm)     0.001876    0.003950
+  My(Nm)     0.001922    0.005068
+  Mz(Nm)     0.001656    0.004587
+Residuals for split=valid, n=8
+ channel    RMSE       max|error|
+   Fx(N)     0.020958    0.041677
+   Fy(N)     0.016367    0.027109
+   Fz(N)     0.017835    0.034703
+  Mx(Nm)     0.000869    0.001441
+  My(Nm)     0.001132    0.001836
+  Mz(Nm)     0.002138    0.004442
+Saved calibration model: output/calibration.txt
+Estimated payload mass = 1.798990 kg
+Wrench gravity sign = +1 (check sign convention!)
+COM in sensor frame [m] = 0.030051, -0.014996, 0.080006
+Bias [Fx Fy Fz Mx My Mz] = 0.462323 -0.250975 0.303253 0.018231 -0.012486 0.024813 [N, Nm]
+Residuals for split=valid, n=8
+ channel    RMSE       max|error|
+   Fx(N)     0.020958    0.041677
+   Fy(N)     0.016367    0.027109
+   Fz(N)     0.017835    0.034703
+  Mx(Nm)     0.000869    0.001441
+  My(Nm)     0.001132    0.001836
+  Mz(Nm)     0.002138    0.004442
+Saved compensated CSV: output/compensated.csv
+WARNING: Nonzero 'comp' is CONTACT only under quasi-static conditions after checking signs/calibration.
+Compensated no-contact wrench [Fx,Fy,Fz,Mx,My,Mz]:
+0 0 0 0 0 0 

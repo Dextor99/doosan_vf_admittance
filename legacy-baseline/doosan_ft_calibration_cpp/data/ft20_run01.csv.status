@@ -1,0 +1,5 @@
+ft_auto_session_v1
+state=INCOMPLETE
+captured_poses=0
+expected_poses=20
+error=Interrupted by operator

@@ -1,0 +1,11 @@
+# Copy to a new file and fill in EVERY field before building a replay plan.
+# Joint limits and offsets must be site-reviewed; they do not prove collision clearance.
+robot_ip=192.168.123.156
+serial_device=/dev/serial/by-id/usb-FTDI_FT232R_USB_UART_BG00TFOX-if00-port0
+joint_min_deg=REQUIRED_SIX_VALUES
+joint_max_deg=REQUIRED_SIX_VALUES
+# Six maximum allowed absolute deviations from recorded pose 1, each 0..5 degrees.
+joint_max_offset_deg=REQUIRED_SIX_VALUES
+velocity_deg_s=REQUIRED
+acceleration_deg_s2=REQUIRED
+settle_seconds=REQUIRED

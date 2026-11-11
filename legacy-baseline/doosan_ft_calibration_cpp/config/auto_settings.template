@@ -1,0 +1,11 @@
+# Copy to a new file and fill in EVERY field before generating a plan.
+# Limits are site-reviewed absolute J1..J6 bounds, in degrees; they are not a collision model.
+robot_ip=192.168.123.156
+serial_device=/dev/serial/by-id/usb-FTDI_FT232R_USB_UART_BG00TFOX-if00-port0
+joint_min_deg=REQUIRED_SIX_VALUES
+joint_max_deg=REQUIRED_SIX_VALUES
+offset_j4_deg=REQUIRED
+offset_j5_deg=REQUIRED
+velocity_deg_s=REQUIRED
+acceleration_deg_s2=REQUIRED
+settle_seconds=REQUIRED
