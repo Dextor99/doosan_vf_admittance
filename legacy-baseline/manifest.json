@@ -328,5 +328,92 @@
       "size_bytes": 2154,
       "sha256": "cdab262e9ed1e71aec4f37a5361e87ada9c6fb3f52839e9149327ba68a7204ee"
     }
-  ]
+  ],
+  "initial_snapshot_commit": "a1a45dd9e59ee68fc60738e336cc84048fe884f1",
+  "calibration_assets": [
+    {
+      "path": "data/ft20_run02.csv",
+      "sha256": "552b4bd1394eebb22a3ecc7fa8c35c12d162e9c669c584d612a37778c21d303a"
+    },
+    {
+      "path": "data/ft20_run02.csv.meta",
+      "sha256": "09e3ce5104f742f28be80e3a61bf32d06cbe61332f9f008fe420d6faf1928ebe"
+    },
+    {
+      "path": "data/ft20_run02.csv.status",
+      "sha256": "a76123ef8763ae1e2b6dddfe643d3bb2261cee225946df5f3cf852b7cbb0666d"
+    },
+    {
+      "path": "output/ft20_run02_model.txt",
+      "sha256": "4d7b242b04824ffc01f3574d03217f9d86d43996e42719ac0536ccf0b0ba03e1"
+    },
+    {
+      "path": "output/ft20_run02_model.txt.meta",
+      "sha256": "09e3ce5104f742f28be80e3a61bf32d06cbe61332f9f008fe420d6faf1928ebe"
+    },
+    {
+      "path": "output/ft20_run02_model.txt.compensated.csv",
+      "sha256": "5a81b89dd211e876d1f9c6b4fb0bbb758b17f784ad201a6edbe9f60645fbb7ce"
+    }
+  ],
+  "calibration_session": {
+    "recorded_date": "2026-11-08",
+    "sample_rows": 20,
+    "training_rows": 15,
+    "validation_rows": 5,
+    "session_status": "COMPLETE",
+    "model_version": "FT static gravity calibration model V1",
+    "sensor_protocol": "candidate interpretation; not manufacturer-verified"
+  },
+  "doosan_sdk": {
+    "local_path": "../BINARY_GL010118_20230324A",
+    "folder_label": "BINARY_GL010118_20230324A",
+    "runtime_controller_compatibility": "unverified",
+    "files": [
+      {
+        "path": "include/DRFL.h",
+        "size_bytes": 42244,
+        "sha256": "9b27bc6e34e60cb66b2d1d36feb494f04cde41ba2dcf0cd0cef4673915c50efd"
+      },
+      {
+        "path": "include/DRFLEx.h",
+        "size_bytes": 80624,
+        "sha256": "16103894770c2c96e5f954eaa6698730259954cf5dcaceda8e87311a423f49d0"
+      },
+      {
+        "path": "library/Linux/64bits/20.04/libDRFL.a",
+        "size_bytes": 893058,
+        "sha256": "9f7dbf3636fb784d69e1112be18b23c2537dd1b5a00e79480b3ad9ddf4c192c8"
+      },
+      {
+        "path": "library/Linux/64bits/20.04/libPocoNet.so.62",
+        "size_bytes": 1235192,
+        "sha256": "447762674e624645f7c44f0bd9f68915f35c470714f1b04f5434087b4d5fa836"
+      },
+      {
+        "path": "library/Linux/64bits/20.04/libPocoFoundation.so.62",
+        "size_bytes": 1792632,
+        "sha256": "ea3c583458469a4d6fa12a8c98cf6557cb9308d49fe6756897d8ce617df50c9e"
+      }
+    ]
+  },
+  "runtime_mode_logs": {
+    "free_x": {
+      "status": "missing",
+      "path": null
+    },
+    "free_xyz": {
+      "status": "missing",
+      "path": null
+    },
+    "point_return": {
+      "status": "missing",
+      "path": null
+    },
+    "trajectory_y": {
+      "status": "missing",
+      "path": null
+    }
+  },
+  "initial_snapshot_tag": "legacy-baseline"
 }

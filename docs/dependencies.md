@@ -13,6 +13,7 @@
 - 编译器：`c++ (Ubuntu 9.4.0-1ubuntu1~20.04.2) 9.4.0`。
 - CMake：当前不可用（`cmake` 命令未找到）。
 - `API-DRFL-main` 包含 amd64 Ubuntu 20.04 的静态库和 Poco 动态库，但上游 README 将仓库内库文件说明为示例版本，并要求核对/下载匹配的正式 SDK。未尝试链接该版本。
+- 旧工程实际构建依赖相邻目录 `../BINARY_GL010118_20230324A` 的 Ubuntu 20.04 DRFL/Poco 库；已记录 `DRFL.h`、`DRFLEx.h`、`libDRFL.a` 和两个 Poco 库的 SHA-256 于 `legacy-baseline/manifest.json`。文件夹标签不能代替现场控制器版本确认。
 - 力传感器确切型号、寄存器映射、单位、通道顺序及符号仍待铭牌和厂家协议确认。
 
 ## 锁版规则
